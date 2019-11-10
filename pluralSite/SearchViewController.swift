@@ -33,9 +33,9 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
         return searchResults.count
     }
     
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Search Results"
-    }
+//    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+//        return "Search Results"
+//    }
     
     func numberOfSections(in tableView: UITableView) -> Int {
         // grouped vertical sections of the tableview
